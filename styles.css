@@ -1,0 +1,255 @@
+/*************General Selector***************/
+body {
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+h1 {
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    font-size: 120px;
+    color: #ffffff;
+    margin-bottom: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+h3 {
+    margin-top: 0;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: center;
+    margin-top: 0;
+    color: black;
+}
+
+h4 {
+    margin-top: 0;
+    font-family: 'Hammersmith One', sans-serif;
+    text-align: right;
+    margin-top: 0;
+    color: #008c8c;
+}
+
+p {
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #015757;
+    font-size: 15px;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: grey;
+    width: 5%;
+}
+
+/****************Div Selector****************/
+.body-container{
+    background-color: #f5ffff;
+}
+.top-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 100px 0px 100px 0px;
+    background-image: url("images/sakura.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.self-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 1px 0px 1px 0px;
+    display: inline-block;
+}
+.myself-container{
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.skill-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 1px 0px 1px 0px;
+    display: inline-block;
+}
+.myskill-container-right{
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: justify;
+    line-height: 2;
+}
+.myskill-container-left{
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: justify;
+    line-height: 2;
+}
+
+.prj-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 1px 0px 1px 0px;
+    display: inline-block;
+}
+.myprj-container{
+    width: 75%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.contact-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 1px 0px 1px 0px;
+    display: inline-block;
+}
+.mycontact-container{
+    width: 75%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.bottom-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
+    background-image: url("images/sakura.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+/***************Image Selector**************/
+.img-center {
+    margin: 0 auto 50px auto;
+    display: block;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    border-style: solid #ffffff
+}
+.img-right {
+    float: right;
+    display: block;
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    border-radius: 25%;
+    width: 300px;
+    height: 200px;
+}
+.img-left {
+    float: left;
+    display: block;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    border-radius: 25%;
+    width: 300px;
+    height: 200px;
+}
+.img-project{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+/***************Text Selector**************/
+.footer-link{
+    font-family: 'Hammersmith One', sans-serif;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+.footer-name{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+.desc-header{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.subject-header-text {
+    text-align: center;
+    color: #008c8c;
+    font-family: 'Concert One', cursive;
+}
+.sub-header-text-right {
+    text-align: right;
+    font-size: 25px;
+    color: #008c8c;
+}
+.sub-header-text-left {
+    text-align: left;
+    font-size: 25px;
+    color: #008c8c;
+}
+.desc-text{
+    padding-bottom: 50px;
+}
+/**************UI Class Selector************/
+a {
+    text-decoration: none;
+}
+a:hover {
+    color:#008c8c; 
+}
+#top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+}
+.btn {
+  background: #c0fafa;
+  background-image: -webkit-linear-gradient(top, #c0fafa, #5d7fd4);
+  background-image: -moz-linear-gradient(top, #c0fafa, #5d7fd4);
+  background-image: -ms-linear-gradient(top, #c0fafa, #5d7fd4);
+  background-image: -o-linear-gradient(top, #c0fafa, #5d7fd4);
+  background-image: linear-gradient(to bottom, #c0fafa, #5d7fd4);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Concert One', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
